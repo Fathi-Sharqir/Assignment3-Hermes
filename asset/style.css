@@ -5,6 +5,13 @@
   box-sizing: border-box;
 }
 
+@media (min-width: 768px) {
+  nav-header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
 nav {
   /* navigation color and layout */
   display: flex;
